@@ -13,7 +13,7 @@ gem "puma"
 gem "rack-canonical-host"
 gem "rails", "~> 4.2.0"
 gem "recipient_interceptor"
-gem "sass-rails", "~> 5.0"
+
 gem "simple_form"
 gem "skylight"
 gem "sprockets", ">= 3.0.0"
@@ -21,6 +21,10 @@ gem "sprockets-es6"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+
+gem 'bootstrap-sass', '~> 3.3.6'
+gem "sass-rails", "~> 5.0"
+gem "font-awesome-rails"
 
 group :development do
   gem "quiet_assets"
