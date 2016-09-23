@@ -26,6 +26,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem "sass-rails", "~> 5.0"
 gem "font-awesome-rails"
 
+gem 'devise'
+
 group :development do
   gem "quiet_assets"
   gem "spring"
